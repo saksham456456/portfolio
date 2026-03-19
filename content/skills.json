@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "skillGroups": [
+    {
+      "id": "skill-group-frontend",
+      "label": "Frontend",
+      "skills": [
+        {
+          "name": "TypeScript",
+          "level": "advanced",
+          "years": 5,
+          "keywords": ["typing", "tooling", "application architecture"]
+        },
+        {
+          "name": "React",
+          "level": "advanced",
+          "years": 5,
+          "keywords": ["components", "state management", "design systems"]
+        }
+      ]
+    },
+    {
+      "id": "skill-group-platform",
+      "label": "Platform & Backend",
+      "skills": [
+        {
+          "name": "Node.js",
+          "level": "advanced",
+          "years": 5,
+          "keywords": ["APIs", "services", "tooling"]
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "intermediate",
+          "years": 3,
+          "keywords": ["data modeling", "queries", "analytics"]
+        }
+      ]
+    },
+    {
+      "id": "skill-group-collaboration",
+      "label": "Product & Collaboration",
+      "skills": [
+        {
+          "name": "Technical writing",
+          "level": "advanced",
+          "years": 6,
+          "keywords": ["documentation", "explanation", "strategy"]
+        },
+        {
+          "name": "Product thinking",
+          "level": "advanced",
+          "years": 6,
+          "keywords": ["user needs", "roadmapping", "prioritization"]
+        }
+      ]
+    }
+  ]
+}

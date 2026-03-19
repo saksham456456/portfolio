@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "faq-background",
+      "question": "What kind of work do you enjoy most?",
+      "answer": "I enjoy product engineering work that blends systems thinking, user empathy, and clear communication.",
+      "tags": ["work", "preferences"]
+    },
+    {
+      "id": "faq-tools",
+      "question": "Which tools do you reach for most often?",
+      "answer": "I usually reach for TypeScript, React, Node.js, and documentation-first planning tools because they help me move quickly without losing clarity.",
+      "tags": ["tools", "workflow"]
+    },
+    {
+      "id": "faq-personality",
+      "question": "How would others describe your working style?",
+      "answer": "Calm, organized, curious, and thoughtful about both the user experience and the technical system behind it.",
+      "tags": ["personality", "collaboration"]
+    }
+  ]
+}

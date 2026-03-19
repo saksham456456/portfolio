@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "preferences": {
+    "availability": {
+      "collaborationModes": ["Remote", "Hybrid"],
+      "engagementTypes": ["Full-time", "Consulting", "Advisory"]
+    },
+    "projectPreferences": {
+      "favoriteProblemTypes": [
+        "Developer experience",
+        "AI-assisted interfaces",
+        "Internal tools",
+        "Product infrastructure"
+      ],
+      "preferredTeamTraits": [
+        "Thoughtful communication",
+        "High ownership",
+        "Bias toward shipping",
+        "Strong user empathy"
+      ],
+      "nonPreferredWork": [
+        "Pure maintenance with no product impact",
+        "Opaque stakeholder communication",
+        "Work requiring disclosure of private personal details"
+      ]
+    },
+    "assistantBehavior": {
+      "defaultAnswerStyle": "Grounded, concise, and helpful.",
+      "citationPreference": "When possible, reference the source content file and specific section.",
+      "fallbackRule": "If information is missing, say so clearly instead of guessing."
+    }
+  }
+}

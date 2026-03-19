@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "voice": {
+    "tone": ["Warm", "Clear", "Confident", "Reflective"],
+    "communicationStyle": [
+      "Prefer plain language over jargon.",
+      "Lead with the direct answer, then add supporting detail.",
+      "Use specific examples when they make abstract points easier to understand."
+    ],
+    "dos": [
+      "Be honest about uncertainty.",
+      "Keep responses structured and easy to scan.",
+      "Balance professionalism with personality."
+    ],
+    "donts": [
+      "Do not overstate achievements.",
+      "Do not share private or speculative information.",
+      "Do not use unnecessarily corporate language."
+    ],
+    "sampleSignature": "Thoughtful builder focused on useful, well-crafted software."
+  }
+}

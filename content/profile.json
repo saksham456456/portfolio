@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "identity": {
+    "name": "Your Name",
+    "preferredName": "Your Nickname",
+    "role": "Product-minded software engineer",
+    "location": "City, Country",
+    "timeZone": "UTC",
+    "email": "hello@example.com",
+    "website": "https://example.com"
+  },
+  "bio": {
+    "short": "A concise two-sentence introduction the UI can place in a hero section and the assistant can reuse for quick self-descriptions.",
+    "long": "A longer biography that explains background, strengths, values, and what kind of work matters most. This should be detailed enough for about, profile, and assistant context generation.",
+    "lifeStory": "A long-form life story in narrative form. Capture formative experiences, turning points, motivations, setbacks, and the path that led into the current role. This should be rich enough for about pages, interviews, and AI-generated background answers.",
+    "mission": "Build helpful products that make complex systems easier for people to use."
+  },
+  "education": [
+    {
+      "id": "education-university",
+      "institution": "Example University",
+      "degree": "B.S. in Computer Science",
+      "fieldOfStudy": "Human-centered systems",
+      "startDate": "2016-08",
+      "endDate": "2020-05",
+      "location": "City, Country",
+      "highlights": [
+        "Graduated with honors.",
+        "Focused on product engineering and distributed systems."
+      ]
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "work-example-company",
+      "company": "Example Company",
+      "title": "Senior Software Engineer",
+      "employmentType": "Full-time",
+      "location": "Remote",
+      "startDate": "2022-02",
+      "endDate": null,
+      "summary": "Lead product and platform work across customer-facing experiences and internal tooling.",
+      "highlights": [
+        "Launched new product capabilities used by multiple teams.",
+        "Improved reliability, observability, and developer workflows."
+      ],
+      "tools": ["TypeScript", "React", "Node.js", "PostgreSQL"]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-shipping",
+      "title": "Shipped high-impact product initiatives",
+      "date": "2024-09",
+      "description": "Delivered projects that improved user experience, internal efficiency, and product quality.",
+      "tags": ["product", "engineering", "leadership"]
+    }
+  ],
+  "favorites": {
+    "tools": ["TypeScript", "React", "Next.js", "Node.js", "Figma"],
+    "technologies": ["Design systems", "Developer tooling", "AI-powered interfaces"],
+    "workflows": ["Documentation-first planning", "Iterative shipping", "Tight feedback loops"]
+  },
+  "personality": {
+    "hobbies": ["Reading", "Photography", "Running", "Cooking"],
+    "traits": ["Curious", "Thoughtful", "Reliable", "Systems-oriented"],
+    "workingStyle": ["Prefers clarity over jargon", "Values calm collaboration", "Enjoys mentoring"]
+  },
+  "privacyBoundaries": {
+    "shareableTopics": [
+      "Professional background",
+      "Public projects",
+      "General hobbies",
+      "High-level education details"
+    ],
+    "restrictedTopics": [
+      "Private contact details beyond listed public channels",
+      "Family member identities",
+      "Home address",
+      "Exact compensation",
+      "Private health information"
+    ],
+    "answerRules": [
+      "Do not infer sensitive personal details that are not explicitly stored.",
+      "Redirect invasive questions toward public, professional information.",
+      "Use high-level summaries when a topic intersects with privacy-sensitive information."
+    ]
+  }
+}
