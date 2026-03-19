@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A cohesive portfolio concept built around a single visual and motion language."
+    />
+    <title>Unified Motion Portfolio</title>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-transition" aria-hidden="true">
+      <div class="page-transition__beam"></div>
+    </div>
+
+    <div class="background-glow background-glow--left" aria-hidden="true"></div>
+    <div class="background-glow background-glow--right" aria-hidden="true"></div>
+
+    <header class="shell shell--nav">
+      <nav class="nav surface-blur" aria-label="Primary">
+        <a class="brand" href="#hero">
+          <span class="brand__mark"></span>
+          Unified/Product
+        </a>
+        <div class="nav__track" aria-hidden="true">
+          <span class="nav__active-pill"></span>
+        </div>
+        <div class="nav__links">
+          <a class="nav__link is-active" href="#hero">Hero</a>
+          <a class="nav__link" href="#timeline">Timeline</a>
+          <a class="nav__link" href="#projects">Projects</a>
+          <a class="nav__link" href="#chat">Chat</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="shell shell--main">
+      <section class="hero reveal" id="hero" data-section>
+        <div class="hero__copy">
+          <p class="eyebrow">Design tokens + motion system</p>
+          <h1>
+            One visual language,
+            <span>every interaction speaking the same dialect.</span>
+          </h1>
+          <p class="hero__lede">
+            This portfolio prototype unifies hero, timeline, projects, and chat with a shared
+            token set, restrained motion primitives, and polished transitions that feel like a
+            single product rather than stitched-together sections.
+          </p>
+          <div class="hero__actions stagger-group">
+            <a class="button button--primary magnetic" href="#projects">Explore projects</a>
+            <button class="button button--ghost magnetic" type="button" data-chat-toggle>
+              Open chat panel
+            </button>
+          </div>
+          <ul class="hero__stats stagger-group" aria-label="Portfolio highlights">
+            <li class="surface-card magnetic">
+              <strong>8</strong>
+              <span>Reusable tokens</span>
+            </li>
+            <li class="surface-card magnetic">
+              <strong>7</strong>
+              <span>Motion patterns</span>
+            </li>
+            <li class="surface-card magnetic">
+              <strong>100%</strong>
+              <span>Reduced-motion safe</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero__panel surface-panel reveal-delay">
+          <div class="hero__panel-header">
+            <p>Visual system</p>
+            <span>v2.0</span>
+          </div>
+          <div class="token-grid stagger-group">
+            <article class="token-card magnetic">
+              <span class="token-card__label">Accent</span>
+              <strong>Aurora Blue / Violet</strong>
+              <div class="token-card__swatches">
+                <span class="swatch swatch--blue"></span>
+                <span class="swatch swatch--violet"></span>
+                <span class="swatch swatch--mint"></span>
+              </div>
+            </article>
+            <article class="token-card magnetic">
+              <span class="token-card__label">Surfaces</span>
+              <strong>Layered dark glass</strong>
+              <p>Elevated cards, luminous strokes, softened blur.</p>
+            </article>
+            <article class="token-card magnetic">
+              <span class="token-card__label">Motion</span>
+              <strong>Transform + opacity first</strong>
+              <p>Fade-up reveals, staggered entrance, magnetic hover, and timeline progress.</p>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section reveal" id="timeline" data-section>
+        <div class="section__heading">
+          <p class="eyebrow">Animated timeline progress</p>
+          <h2>Delivery rhythm made visible.</h2>
+          <p>
+            The timeline uses the same radius, gradients, shadows, and easing as the rest of the
+            interface while progress animates via transforms instead of layout-heavy measurements.
+          </p>
+        </div>
+
+        <div class="timeline surface-panel">
+          <div class="timeline__rail" aria-hidden="true">
+            <span class="timeline__progress"></span>
+          </div>
+          <div class="timeline__items stagger-group">
+            <article class="timeline-card magnetic">
+              <span class="timeline-card__step">01</span>
+              <h3>System definition</h3>
+              <p>Tokenize color, blur, radii, shadows, type, and motion before composing screens.</p>
+            </article>
+            <article class="timeline-card magnetic">
+              <span class="timeline-card__step">02</span>
+              <h3>Section choreography</h3>
+              <p>Fade-up sections and card staggering create rhythm without overwhelming the user.</p>
+            </article>
+            <article class="timeline-card magnetic">
+              <span class="timeline-card__step">03</span>
+              <h3>Interaction polish</h3>
+              <p>Magnetic buttons, active nav tracking, and chat transitions make the product feel alive.</p>
+            </article>
+            <article class="timeline-card magnetic">
+              <span class="timeline-card__step">04</span>
+              <h3>Performance discipline</h3>
+              <p>System fonts, lazy imagery, reduced motion, and optimized properties keep it smooth.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects" data-section>
+        <div class="section__heading">
+          <p class="eyebrow">Staggered card entrance</p>
+          <h2>Projects shown through the same product lens.</h2>
+          <p>
+            Each project card shares the same dark surfaces, gradients, hover language, and motion
+            timings, so the showcase feels curated and consistent.
+          </p>
+        </div>
+
+        <div class="project-grid stagger-group">
+          <article class="project-card surface-card magnetic">
+            <img
+              src="assets/project-orbit.svg"
+              alt="Orbit dashboard preview"
+              width="640"
+              height="420"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__meta">Product design system</p>
+                <h3>Orbit Control Center</h3>
+              </div>
+              <p>
+                A dashboard concept with restrained glassmorphism, responsive metrics, and guided reveal motion.
+              </p>
+              <a class="button button--ghost magnetic" href="#chat">Discuss project</a>
+            </div>
+          </article>
+
+          <article class="project-card surface-card magnetic">
+            <img
+              src="assets/project-pulse.svg"
+              alt="Pulse mobile preview"
+              width="640"
+              height="420"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__meta">Motion-first prototype</p>
+                <h3>Pulse Launch Sequence</h3>
+              </div>
+              <p>
+                A launch campaign interface using the same easing, depth system, and accent gradients as the site shell.
+              </p>
+              <a class="button button--ghost magnetic" href="#timeline">View process</a>
+            </div>
+          </article>
+
+          <article class="project-card surface-card magnetic">
+            <img
+              src="assets/project-signal.svg"
+              alt="Signal collaboration preview"
+              width="640"
+              height="420"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="project-card__body">
+              <div>
+                <p class="project-card__meta">AI collaboration layer</p>
+                <h3>Signal Workspace</h3>
+              </div>
+              <p>
+                A collaborative assistant experience where panels, chips, and states all follow the shared motion language.
+              </p>
+              <a class="button button--ghost magnetic" href="#hero">Back to top</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="chat" data-section>
+        <div class="section__heading">
+          <p class="eyebrow">Chat panel transitions</p>
+          <h2>A conversation surface that belongs to the same family.</h2>
+          <p>
+            The chat panel borrows identical color, blur, type, and easing tokens so its entrance
+            and close motions feel native to the rest of the interface.
+          </p>
+        </div>
+
+        <div class="chat-showcase surface-panel">
+          <div class="chat-showcase__intro">
+            <h3>Need a product-minded collaborator?</h3>
+            <p>
+              Open the panel to preview the micro-interactions, shared depth system, and carefully
+              tuned motion states.
+            </p>
+            <button class="button button--primary magnetic" type="button" data-chat-toggle>
+              Toggle chat preview
+            </button>
+          </div>
+
+          <aside class="chat-panel" aria-live="polite" aria-label="Chat preview" data-chat-panel>
+            <div class="chat-panel__header">
+              <div>
+                <p class="chat-panel__eyebrow">Live concept</p>
+                <strong>Product chat</strong>
+              </div>
+              <button class="icon-button magnetic" type="button" aria-label="Close chat" data-chat-toggle>
+                ✕
+              </button>
+            </div>
+            <div class="chat-panel__messages">
+              <article class="message message--incoming">
+                <span class="message__author">Studio</span>
+                <p>Can the interaction language feel cinematic without sacrificing performance?</p>
+              </article>
+              <article class="message message--outgoing">
+                <span class="message__author">You</span>
+                <p>Yes—if motion stays transform-based, respects reduced motion, and shares common timing tokens.</p>
+              </article>
+              <article class="message message--incoming">
+                <span class="message__author">Studio</span>
+                <p>Then every panel, card, and section can feel related instead of independently styled.</p>
+              </article>
+            </div>
+            <form class="chat-panel__composer">
+              <label class="sr-only" for="chat-message">Message</label>
+              <input id="chat-message" type="text" placeholder="Prototype reply…" />
+              <button class="button button--primary magnetic" type="submit">Send</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
