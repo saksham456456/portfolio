@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "milestones": [
+    {
+      "id": "milestone-start-tech",
+      "date": "2016-08",
+      "title": "Started studying computer science",
+      "category": "education",
+      "summary": "Began formal training in software engineering and product development.",
+      "details": [
+        "Focused on programming fundamentals and human-centered design.",
+        "Built early web applications and collaborative projects."
+      ],
+      "relatedIds": ["education-university"]
+    },
+    {
+      "id": "milestone-first-role",
+      "date": "2020-06",
+      "title": "Began first full-time engineering role",
+      "category": "work",
+      "summary": "Transitioned from student projects into professional product engineering.",
+      "details": [
+        "Worked across frontend and backend systems.",
+        "Learned production delivery, cross-functional collaboration, and reliability practices."
+      ],
+      "relatedIds": ["work-example-company"]
+    },
+    {
+      "id": "milestone-leadership",
+      "date": "2024-09",
+      "title": "Delivered major cross-functional initiatives",
+      "category": "achievement",
+      "summary": "Took on broader ownership across product direction, system quality, and team execution.",
+      "details": [
+        "Drove planning, implementation, and rollout for impactful launches.",
+        "Improved the team's process, visibility, and delivery confidence."
+      ],
+      "relatedIds": ["achievement-shipping", "work-example-company"]
+    }
+  ]
+}

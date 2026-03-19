@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "project-portfolio-site",
+      "name": "Personal Portfolio",
+      "slug": "personal-portfolio",
+      "status": "active",
+      "summary": "A site that combines a personal portfolio, structured knowledge base, and assistant-ready content model.",
+      "description": "A long-form project description that can be used on detail pages, case studies, or AI-generated project answers.",
+      "startDate": "2025-01",
+      "endDate": null,
+      "roles": ["Designer", "Engineer", "Writer"],
+      "highlights": [
+        "Built reusable content structures for UI and assistant retrieval.",
+        "Designed project sections to be easy to render and easy to search."
+      ],
+      "tools": ["TypeScript", "Next.js", "Tailwind CSS", "OpenAI API"],
+      "links": [
+        {
+          "label": "Live site",
+          "url": "https://example.com"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/example/portfolio"
+        }
+      ],
+      "tags": ["portfolio", "content-model", "ai"]
+    }
+  ]
+}
